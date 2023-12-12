@@ -1,0 +1,20 @@
+.papoCat {
+    padding: 20px;
+}
+
+.catList {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.catList span {
+    padding: 8px 20px;
+    background: #292929;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.catList span.active {
+    background: #D42978;
+}

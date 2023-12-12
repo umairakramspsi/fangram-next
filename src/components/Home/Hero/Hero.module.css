@@ -1,0 +1,142 @@
+.hero_section {
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    position: relative;
+}
+.hero_start{
+    position: absolute;
+    top: 40px;
+    left: -25px;
+}
+.hero_end{
+    position: absolute;
+    bottom: -10px;
+    left: 50%
+}
+.hero {
+    display: flex;
+    padding: 10px;
+    gap: 30px;
+    align-items: center;
+}
+
+.hero_text {
+    flex: 50%;
+    padding: 40px 0px;
+    position: relative;
+}
+
+.hero_text::before {
+    position: absolute;
+    content: "";
+    top: 0%;
+    left: -25%;
+    width: 800px;
+    height: 800px;
+    background: linear-gradient(91deg, rgba(253, 193, 93, 0.30) 11.73%, rgba(209, 41, 122, 0.30) 60.63%, rgba(171, 45, 167, 0.30) 100.3%);
+    border-radius: 100%;
+    z-index: -1;
+    filter: blur(192px);
+}
+
+
+
+.hero_text p {
+    font-family: Satisfy;
+    font-size: 30px;
+    background: linear-gradient(91deg, #FDC15D 11.73%, #D1297A 60.63%, #AB2DA7 100.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero_text h1 {
+    font-size: 42px;
+    color: white;
+    margin: 20px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.search_from form {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    border-radius: 300px;
+    border: 1px solid #FFF;
+    gap: 20px;
+}
+
+.search_from input {
+    flex: 1;
+}
+
+.search_from input {
+    background-color: transparent;
+    border: none;
+    height: 32px;
+    color: white;
+}
+
+.search_from input::placeholder {
+    color: white;
+}
+
+.search_from button {
+    border-radius: 300px;
+    background: #D42978;
+    padding: 6px 20px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero_slide {
+    width: 42%;
+    padding: 10px 0px;
+    text-align: center;
+    position: relative;
+}
+
+.hero_slide::after {
+    position: absolute;
+    content: "";
+    top: 0%;
+    right: -25%;
+    width: 1000px;
+    height: 1000px;
+    background: linear-gradient(91deg, rgba(253, 193, 93, 0.10) 11.73%, rgba(209, 41, 122, 0.10) 60.63%, rgba(171, 45, 167, 0.10) 100.3%);
+    border-radius: 100%;
+    z-index: -1;
+    filter: blur(192px);
+}
+
+.hero_slide img {
+    max-width: 80%;
+    padding: 10px 0px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.react-multi-carousel-dot-list {
+    margin-top: 20px;
+}
+
+.heroCard {
+    padding-bottom: 20px;
+}
+
+.heroCard img {
+    border-radius: 20px;
+}
+
+.text_img1 {
+    position: absolute;
+    right: 0px;
+    top: 30px;
+}
+
+.text_img2 {
+    position: absolute;
+    right: 20px;
+    bottom: 120px;
+}
